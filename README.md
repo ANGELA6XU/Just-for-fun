@@ -1,0 +1,3 @@
+# Just-for-fun
+Python auto just for fun
+to be continued...
