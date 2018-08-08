@@ -9,20 +9,14 @@
 # time.sleep(3)
 # driver.close()
 
+# automate boring stuff with pyautogui, controlling keyboard and mouse
 
 import pyautogui
 #print(pyautogui.size())
 
-#pyautogui.moveTo(800, 50)
-pyautogui.click(800, 50, duration = 1)
-pyautogui.click(800, 320, duration = 1)
-pyautogui.click(380, 105, duration = 1)
-pyautogui.click(380, 155, duration = 1)
-pyautogui.click(550, 500, duration = 1)
-pyautogui.click(550, 500)
+# mouse movement, parameters are x and y - coordinates according to the computer system.
+pyautogui.moveTo(800, 50)
 
-#pyautogui.moveTo(800, 800)
-#pyautogui.click(800,800, duration = 1)
-#pyautogui.moveTo(450,120)
-#pyautogui.click(450,120, duration = 1)
+# mouse click, parameters are x,y - coordinates, and movement duration.
+pyautogui.click(800, 50, duration = 1)
 
